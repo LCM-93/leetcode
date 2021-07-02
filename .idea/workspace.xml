@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b51daa7f-ba86-41a2-b55a-e095d1b17cdb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/easy/Question16.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/easy/Question17.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/easy/Question18.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/easy/Question19.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/easy/Question20.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/easy/Question21.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/easy/Question15.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/easy/Question15.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/easy/Question18.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/easy/Question18.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,46 +43,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Question18">
-    <configuration name="Question14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="easy.Question14" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Question15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="easy.Question15" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Question16" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="easy.Question16" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Question21">
     <configuration name="Question17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="easy.Question17" />
       <module name="leetcode" />
@@ -109,13 +70,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Question19" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="easy.Question19" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Question20" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="easy.Question20" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Question21" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="easy.Question21" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Question21" />
+        <item itemvalue="Application.Question20" />
+        <item itemvalue="Application.Question19" />
         <item itemvalue="Application.Question18" />
         <item itemvalue="Application.Question17" />
-        <item itemvalue="Application.Question16" />
-        <item itemvalue="Application.Question15" />
-        <item itemvalue="Application.Question14" />
       </list>
     </recent_temporary>
   </component>
@@ -132,7 +132,10 @@
       <workItem from="1623308589023" duration="10410000" />
       <workItem from="1623390621721" duration="7042000" />
       <workItem from="1623739788845" duration="10439000" />
-      <workItem from="1623827574681" duration="5356000" />
+      <workItem from="1623827574681" duration="5695000" />
+      <workItem from="1624598998428" duration="205000" />
+      <workItem from="1625121224947" duration="2491000" />
+      <workItem from="1625209611972" duration="1862000" />
     </task>
     <servers />
   </component>
