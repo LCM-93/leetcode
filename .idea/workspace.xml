@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b51daa7f-ba86-41a2-b55a-e095d1b17cdb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/easy/Question19.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/easy/Question20.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/easy/Question21.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/easy/Question18.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/easy/Question18.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,6 +26,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunDashboard">
@@ -136,6 +134,7 @@
       <workItem from="1624598998428" duration="205000" />
       <workItem from="1625121224947" duration="2491000" />
       <workItem from="1625209611972" duration="1862000" />
+      <workItem from="1635674849508" duration="94000" />
     </task>
     <servers />
   </component>
