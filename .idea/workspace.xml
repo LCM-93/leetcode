@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b51daa7f-ba86-41a2-b55a-e095d1b17cdb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/rbTree/RBTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rbTree/RBTreeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rbTree/TreeOperation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/easy/Question21.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/easy/Question21.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -141,7 +137,7 @@
       <workItem from="1625121224947" duration="2491000" />
       <workItem from="1625209611972" duration="1862000" />
       <workItem from="1635674849508" duration="7881000" />
-      <workItem from="1635684365328" duration="904000" />
+      <workItem from="1635684365328" duration="1135000" />
     </task>
     <servers />
   </component>
