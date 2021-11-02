@@ -20,7 +20,7 @@ public class TreeOperation {
         // 保证输入的树不为空
         if (currNode == null) return;
         // 先将当前节点保存到二维数组中
-        res[rowIndex][columnIndex] = String.valueOf((currNode.isColor()?"\033[0;31m":"\033[0;30m")+currNode.getKey()  + "  \033[0m");
+        res[rowIndex][columnIndex] = String.valueOf((currNode.isColor()?"\033[0;31m":"\033[0;30m")+currNode.getKey()  + " \033[0m");
 
         // 计算当前位于树的第几层
         int currLevel = ((rowIndex + 1) / 2);
