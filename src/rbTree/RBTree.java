@@ -264,7 +264,7 @@ public class RBTree<K extends Comparable, V> {
             }
             node.parent = node.left = node.right = null;
             if (colorOf(node) == BLACK) {  //删除红色节点不会影响红黑树平衡
-                fixAfterDelete(node);
+                fixAfterDelete(replacement);
             }
         } else if (node.parent == null) { //当前节点就是根节点
             root = null;
