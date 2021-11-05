@@ -1,17 +1,50 @@
 package sort;
 
+import java.util.Arrays;
+
 public class SortTest {
 
     public static void main(String[] args) {
         int[] arr = {8, 4, 6, 2, 9, 7, 1, 3, 5};
         int[] arr1 = {5, 8, 9, 10, 3, 6, 7};
+        int[] arr2 = {5, 8};
 
-        printArray(arr);
+        printArray(arr1);
         System.out.println("==============================================");
-        mergeSort(arr, 0, arr.length - 1);
-        printArray(arr);
+        quickSort(arr1, 0, arr1.length - 1);
+        printArray(arr1);
 
     }
+
+
+    /**
+     * 快速排序  O(n * log n)
+     * @param a
+     * @param start
+     * @param end
+     */
+    public static void quickSort(int[] a, int start, int end) {
+        if (start >= end) return;
+        int pivot = a[end];
+        int left = start;
+        int right = end - 1;
+
+        while (left <= right) {
+            //从左往右找第一个比轴大的数
+            while (left <= right && a[left] <= pivot) left++;
+            //从右往左找第一个比轴小的数
+            while (left <= right && a[right] > pivot) right--;
+
+            //交换位置
+            if (left < right) swap(a, left, right);
+        }
+        //将轴移动到中间
+        swap(a, left, end);
+        quickSort(a, start, left-1);
+        quickSort(a, left + 1, end);
+    }
+
+
 
 
     /**
@@ -90,6 +123,7 @@ public class SortTest {
 
 
     public static void swap(int[] a, int i, int j) {
+        if(i == j ) return;
         a[i] = a[i] ^ a[j];
         a[j] = a[i] ^ a[j];
         a[i] = a[i] ^ a[j];
