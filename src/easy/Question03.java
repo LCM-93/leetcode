@@ -3,7 +3,7 @@ package easy;
 import java.util.Arrays;
 
 /**
- * https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x2skh7/
+ * @see <a href="https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x2skh7/"/>
  * 旋转数组
  * <p>
  * 给定一个数组，将数组中的元素向右移动 k 个位置，其中 k 是非负数。

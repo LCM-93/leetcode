@@ -3,7 +3,7 @@ package easy;
 import java.util.Arrays;
 
 /**
- * https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xnhbqj/
+ * @see <a href="https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xnhbqj/"/>
  *
  * 反转字符串
  * 编写一个函数，其作用是将输入的字符串反转过来。输入字符串以字符数组 char[] 的形式给出。

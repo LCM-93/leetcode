@@ -1,7 +1,9 @@
 package easy;
 
+import easy.model.ListNode;
+
 /**
- * https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xnarn7/
+ * @see <a href="https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xnarn7/"/>
  * 删除链表中的节点
  * 请编写一个函数，使其可以删除某个链表中给定的（非末尾）节点。传入函数的唯一参数为 要被删除的节点 。
  *  
@@ -33,31 +35,18 @@ public class Question21 {
         node4.next = node5;
 
         System.out.println(node4);
-        deleteNode(node5);
+        deleteNode(node9);
         System.out.println(node4);
 
     }
 
     public static void deleteNode(ListNode node) {
+        if(node.next == null){
+            return;
+        }
         node.val = node.next.val;
         node.next = node.next.next;
     }
 
 
-    public static class ListNode {
-        int val;
-        ListNode next;
-
-        @Override
-        public String toString() {
-            return "ListNode{" +
-                    "val=" + val +
-                    ", next=" + next +
-                    '}';
-        }
-
-        ListNode(int x) {
-            val = x;
-        }
-    }
 }

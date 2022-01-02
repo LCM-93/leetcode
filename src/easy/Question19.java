@@ -1,10 +1,10 @@
 package easy;
 
-import java.util.ArrayList;
-import java.util.List;
+
+import java.util.Arrays;
 
 /**
- * https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xnpvdm/
+ * @see <a href="https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xnpvdm/"/>
  * <p>
  * 外观数列
  * 给定一个正整数 n ，输出外观数列的第 n 项。
@@ -48,10 +48,41 @@ import java.util.List;
 public class Question19 {
 
     public static void main(String[] args) {
-        System.out.println(countAndSay(8));
+        for (int i = 1; i <30; i++) {
+            System.out.println(countAndSay3(i));
+        }
+
 
     }
 
+
+    public static String countAndSay3(int n) {
+        if (n == 1) {
+            return "1";
+        } else {
+            String str = countAndSay3(--n);
+            char[] chars = str.toCharArray();
+            int[] nums = new int[chars.length * 2];
+            int index = 1;
+            for (char c : chars) {
+                int num = c - '0';
+                if (num == nums[index]) {
+                    nums[index - 1] = nums[index - 1] + 1;
+                }else{
+                    if(nums[index] !=0) {
+                        index += 2;
+                    }
+                    nums[index] = num;
+                    nums[index -1] +=1;
+                }
+            }
+            StringBuilder builder = new StringBuilder();
+            for (int i = 0; i <= index; i++) {
+                builder.append(nums[i]);
+            }
+            return builder.toString();
+        }
+    }
 
     public static String countAndSay(int n) {
         if (n == 1) {
@@ -66,7 +97,7 @@ public class Question19 {
             while (true) {
                 if (chars[j] == chars[i]) {
                     num++;
-                    if(++i >=chars.length){
+                    if (++i >= chars.length) {
                         sb.append(num);
                         sb.append(chars[j]);
                         break;
@@ -85,7 +116,7 @@ public class Question19 {
 
     public static String countAndSay1(int n) {
 // 递归出口
-        if(n==1){
+        if (n == 1) {
             return "1";
         }
         // 假设我们获得上一次的结果为 s1 = 112213
@@ -97,9 +128,9 @@ public class Question19 {
         int count = 0;
         for (int i = 0; i < s1.length(); i++) {
             // 设定计数器 计算同一个数字出现的次数 count
-            if(s1.charAt(i) == local){
+            if (s1.charAt(i) == local) {
                 count++;
-            }else {
+            } else {
                 // 不符合，记录下
                 result.append(count);
                 result.append(local);

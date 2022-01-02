@@ -1,7 +1,7 @@
 package easy;
 
 /**
- * https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xnmav1/
+ * @see <a href="https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xnmav1/"/>
  * 最长公共前缀
  * 编写一个函数来查找字符串数组中的最长公共前缀。
  * <p>

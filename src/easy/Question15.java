@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 
 /**
- * https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xn96us/
+ * @see <a href="https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xn96us/"/>
  * 有效的字母异位词
  * 给定两个字符串 s 和 t ，编写一个函数来判断 t 是否是 s 的字母异位词。
  * <p>

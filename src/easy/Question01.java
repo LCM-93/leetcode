@@ -3,7 +3,7 @@ package easy;
 import java.util.Arrays;
 
 /**
- * https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x2gy9m/
+ * @see <a href="https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x2gy9m/"/>
  * 删除排序数组中的重复项
  *
  * 给你一个有序数组 nums ，请你 原地 删除重复出现的元素，使每个元素 只出现一次 ，返回删除后数组的新长度。

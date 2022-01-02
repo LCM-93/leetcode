@@ -1,7 +1,7 @@
 package easy;
 
 /**
- * https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x2zsx1/
+ * @see <a href="https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x2zsx1/"/>
  * 买卖股票的最佳时机
  * <p>
  * 给定一个数组 prices ，其中 prices[i] 是一支给定股票第 i 天的价格。

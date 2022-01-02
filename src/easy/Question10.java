@@ -1,11 +1,10 @@
 package easy;
 
-import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
 /**
- * https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x2f9gg/
+ * @see <a href="https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x2f9gg/"/>
  * 有效的数独
  * 请你判断一个 9x9 的数独是否有效。只需要 根据以下规则 ，验证已经填入的数字是否有效即可。
  * <p>
