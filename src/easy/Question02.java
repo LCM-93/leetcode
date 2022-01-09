@@ -54,7 +54,7 @@ public class Question02 {
             hold = Math.max(hold, noHold - prices[i]);   //当天手上持有股票，要么前一天就持有，今天未卖出，要么前一天未持有，今天买入
             noHold = Math.max(noHold, hold + prices[i]);  //当天未持有股票，要么前一天就未持有，今天也未买入，要么前一天持有，今天卖出
         }
-        return Math.max(hold, noHold);
+        return noHold;
     }
 
 
