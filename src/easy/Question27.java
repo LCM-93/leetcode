@@ -79,7 +79,7 @@ public class Question27 {
 
 
     /**
-     * FDS 深度优先搜索
+     *DFS 深度优先搜索
      * 用两个栈同时记录节点以及节点所在的层数
      *
      * @param root

@@ -159,7 +159,7 @@ public class Question28 {
             if(pre != null && pre.val >= root.val) return false;
             pre = root;
 
-            
+
             root = root.right;
         }
         return true;
