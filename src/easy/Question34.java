@@ -51,7 +51,7 @@ public class Question34 {
     public static int climbStairs1(int n, int a, int b) {
         if (n <= 1) return b;
 
-        return climbStairs1(n - 1, a, a + b);
+        return climbStairs1(n - 1, b, a + b);
     }
 
 
