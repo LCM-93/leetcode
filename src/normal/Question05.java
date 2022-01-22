@@ -35,8 +35,35 @@ public class Question05 {
 
     public static void main(String[] args) {
         String s = "babad";
-        String s1 = longestPalindrome(s);
+        String s1 = longestPalindrome2(s);
         System.out.println(s1);
+    }
+
+    public static String longestPalindrome2(String s) {
+        int maxLength = 0;
+        int maxStart = 0;
+        int start = 0;
+
+        int length = s.length();
+        while (start < length) {
+            int left = start;
+            while (start < length - 1 && s.charAt(start) == s.charAt(start + 1)) {
+                start++;
+            }
+            int right = start;
+            start++;
+            while (left > 0 && right < length-1 && s.charAt(right+1) == s.charAt(left-1)) {
+                right++;
+                left--;
+            }
+            if (right - left + 1 > maxLength) {
+                maxLength = right - left + 1;
+                maxStart = left;
+            }
+        }
+
+        return s.substring(maxStart, maxStart + maxLength);
+
     }
 
 
@@ -82,7 +109,7 @@ public class Question05 {
         for (int i = 0; i < length; ) {
             if (length - i < maxLenght / 2) break; //如果剩下的长度不足最大长度的一半  可以直接停止了
             int left = i, right = i;
-            while (right < length - 1 && s.charAt(right + 1) == s.charAt(right++)) { //过滤相邻相同的字符
+            while (right < length - 1 && s.charAt(right + 1) == s.charAt(right)) { //过滤相邻相同的字符
                 right++;
             }
             i = right + 1; //下一次遍历直接从右边加以为开始

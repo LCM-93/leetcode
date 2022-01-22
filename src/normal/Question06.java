@@ -35,9 +35,24 @@ import java.util.Arrays;
 public class Question06 {
 
     public static void main(String[] args) {
-        int[] nums = new int[]{6,7,1,2};
+        int[] nums = new int[]{6, 7, 1, 2};
         System.out.println(increasingTriplet(nums));
 
+    }
+
+    public static boolean increasingTriplet1(int[] nums) {
+        int small = Integer.MAX_VALUE;
+        int middle = Integer.MAX_VALUE;
+        for (int i = 0; i < nums.length; i++) {
+            if(nums[i] <= small){
+                small = nums[i];
+            }else if(nums[i] <= middle){
+                middle = nums[i];
+            }else{
+                return true;
+            }
+        }
+        return false;
     }
 
 
@@ -48,11 +63,11 @@ public class Question06 {
         for (int num : nums) {
             //最小值一定比中间值先赋值 所以在中间值之前一定有一个比它小的
             //出现匹配的最大值是   最小值当前记录的并不一定是符合三元组的  但前面一定有一个符合的值
-            if(num < small){
+            if (num <= small) {
                 small = num;
-            }else if(num < mid){
+            } else if (num <= mid) {
                 mid = num;
-            }else {
+            } else {
                 return true;
             }
         }
